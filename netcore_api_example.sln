@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net_api_example", "net_api_example.csproj", "{1D898BB9-E0A2-49B3-8F66-2428A15A022C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netcore_api_example", "netcore_api_example.csproj", "{B424FCD5-3ED1-4E6C-88F1-A40175DE1A5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1D898BB9-E0A2-49B3-8F66-2428A15A022C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D898BB9-E0A2-49B3-8F66-2428A15A022C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D898BB9-E0A2-49B3-8F66-2428A15A022C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D898BB9-E0A2-49B3-8F66-2428A15A022C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B424FCD5-3ED1-4E6C-88F1-A40175DE1A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B424FCD5-3ED1-4E6C-88F1-A40175DE1A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B424FCD5-3ED1-4E6C-88F1-A40175DE1A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B424FCD5-3ED1-4E6C-88F1-A40175DE1A5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {83D410F2-9066-4BB2-868E-115E86F7B465}
+		SolutionGuid = {3785790D-AAAD-45C8-85FC-CFDFF725D92D}
 	EndGlobalSection
 EndGlobal
