@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using netcore_api_example.Context;
 using netcore_api_example.Models;
 
@@ -63,6 +64,7 @@ namespace netcore_api_example.Controllers
             try
             {
                 context.gestores_bd.Add(gestor);
+                context.SaveChanges();
                 return CreatedAtRoute("GetGestor", new { id = gestor.id }, gestor);
             }
             catch (Exception ex)
@@ -82,7 +84,7 @@ namespace netcore_api_example.Controllers
             {
                 if (gestor.id == id)
                 {
-                    context.Entry(gestor).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                    context.Entry(gestor).State = EntityState.Modified;
                     context.SaveChanges();
                     return CreatedAtRoute("GetGestor", new { id = gestor.id }, gestor);
                 }
