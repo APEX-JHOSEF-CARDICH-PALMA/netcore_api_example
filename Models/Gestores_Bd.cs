@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace netcore_api_example.Models
 {
+    /**
+     * Esta clase sirve para representar los datos de la BD 
+     */
     public class Gestores_Bd
     {
         [Key]
