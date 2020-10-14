@@ -23,5 +23,5 @@ namespace netcore_api_example
                 {
                     webBuilder.UseStartup<Startup>();
                 });
-    }ee
+    }
 }
