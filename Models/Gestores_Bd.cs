@@ -16,5 +16,7 @@ namespace netcore_api_example.Models
         public string nombre { get; set; }
         public int lanzamiento { get; set; }
         public string desarrollador { get; set; }
+        public string owner { get; set; }
+
     }
 }
