@@ -8,14 +8,25 @@ using netcore_api_example.Context;
 using netcore_api_example.Models;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
+/**
+ * Clase de controladores API, en este caso se usaria 
+ * para poder ser implementado con otro tipo de vista..ya 
+ * que este controlador es una definicion pura y dura...
+ * 
+ */
+/** 
+ * Tambien existe otro tipo de controladores API, pero los metodos 
+ * tienen nombre de cosas al rollo entity frame... 
+ * Clase de controlador tipo api con acciones entity framework
+ */
 namespace netcore_api_example.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class GestoresController : ControllerBase
     {
-
+        // Para hacer las peticiones tenemos que meter primero 
+        // El context
         private readonly AppDbContext context;
 
 
@@ -38,6 +49,8 @@ namespace netcore_api_example.Controllers
             }
             
         }
+
+
 
         // GET api/<GestoresController>/5
         [HttpGet("{id}", Name ="GetGestor")]
